@@ -18,13 +18,24 @@
     }
 
     .container {
-        display: flex;
+        /* display: flex; */
         /* background-color: aqua; */
         height: 100vh;
-        width: 70%;
-
+        width: 80%;
         margin: 0 auto;
+        /* background-color: aqua; */
+
     }
+
+    .down_sec {
+        display: flex;
+        justify-content: space-between;
+        /* background-color: rgb(45, 45, 87); */
+        margin-top: 150px;
+
+    }
+
+
 
     img {
         height: 50vh;
@@ -32,20 +43,19 @@
         /* background-color: antiquewhite; */
     }
 
-    .image {
-        /* background-color: black; */
-        display: flex;
-        align-items: center;
+
+
+
+    h1 {
+        font-size: 45px;
+        margin-bottom: 30px;
     }
 
-    .right {
-        /* background-color: blueviolet; */
-        padding: 250px 50px;
-    }
-
-    h1,
     p {
-        margin-bottom: 20px;
+        margin-bottom: 30px;
+        color: gray;
+        /* background-color: aqua; */
+
     }
 
     button {
@@ -55,7 +65,21 @@
 
         background-color: blueviolet;
         border: 0;
+        border-radius: 8px;
     }
+
+    @media screen and (max-width:560px) {
+        .down_sec {
+            flex-direction: column;
+        }
+
+    }
+
+    @media screen and (min-width:560px) and (max-width:912px) {
+        .down_sec {
+            flex-direction: column;
+
+        }
 </style>
 
 
@@ -63,13 +87,22 @@
 
 <body>
 
+
     <div class="container">
-        <div class="image"><img src="images/Scarecrow.png" alt=""></div>
-        <div class="right">
-            <h1>I have bad news for you</h1>
-            <p>The page you are looking for might be removed or is temporarily available</p>
-            <button>Back to homepage</button>
+        <div class="upper_sec">
+            <h2>404 not found</h2>
         </div>
+        <div class="down_sec">
+            <div class="image"><img src="images/Scarecrow.png" alt=""></div>
+            <div class="right">
+                <h1>I have bad news <br>for you</h1>
+                <p>The page you are looking for might be removed or is temporarily
+                    available</p>
+                <button>Back to homepage</button>
+            </div>
+
+        </div>
+
     </div>
 
 </body>

@@ -63,11 +63,12 @@ main {
 .right_section>img {
     height: 60vh;
     margin-right: 50px;
+
 }
 
 .left_section {
-    /* background-color: aqua; */
-    padding: 0 400px 0 50px;
+    background-color: aqua;
+    padding: 0 300px 0 200px;
 }
 
 .left_section>h2 {
@@ -79,5 +80,17 @@ main {
 .left_section>p {
     /* font-size: 35px; */
     margin-bottom: 30px;
+
+}
+
+.right_section {
+    position: relative;
+}
+
+.image2 {
+    height: 20px;
+    width: 60%;
+    position: absolute;
+    left: 50px;
 
 }

@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    visibility: hidden;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    /* background-color: blue; */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    /* background-color: blueviolet; */
+    margin-left: 20px;
+    border: 2px solid white;
+}
+
+.logo>h3 {
+    color: white;
+    text-transform: uppercase;
+}
+
+.nav {
+    /* background-color: aqua; */
+}
+
+.nav>ul {
+    display: flex;
+}
+
+.nav>ul>li {
+    list-style: none;
+    padding: 20px;
+    margin-right: 50px;
+
+}
+
+.nav>ul>li>a {
+    text-decoration: none;
+    color: white;
+}

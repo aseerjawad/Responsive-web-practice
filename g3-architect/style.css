@@ -1,8 +1,20 @@
+/* Universal selector */
+
+
 * {
     padding: 0;
     margin: 0;
     font-family: 'Work Sans', sans-serif;
 }
+
+p {
+    color: var(--dark-03, #727272);
+}
+
+
+
+
+/* header */
 
 header {
     background: rgba(255, 144, 14, 0.10);
@@ -107,6 +119,35 @@ p {
 .feature_right>p {
 
     color: var(--dark-03, #727272);
+}
+
+
+/* --------------------------------------------------------------------------------------------------- */
+
+
+.feature_to_enjoy {
+    display: flex;
+    padding: 0 168px 0 168px;
+}
+
+.feature_to_enjoy-left {
+    /* background-color: #FF900E; */
+    margin-right: 20px;
+}
+
+.feature_to_enjoy_header>h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    /* background-color: #FF900E; */
+    padding-left: 20px;
+    border-left: 5px solid #FF900E;
+}
+
+.feature_to_enjoy_details {
+    background-color: #FF900E;
+    padding: 15px;
+    margin-bottom: 10px;
+    padd
 }
 
 

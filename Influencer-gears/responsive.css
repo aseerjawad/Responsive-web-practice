@@ -48,5 +48,42 @@
 
     }
 
+    .mid_section {
+        flex-direction: column-reverse;
+        padding: 0;
+        /* align-items: center; */
+    }
+
+    .right_side {
+        display: flex;
+        background-color: aqua;
+    }
+
+    .bgm {
+        right: 40px;
+        width: 70%;
+
+    }
+
+    .camera {
+        width: 70%;
+        position: absolute;
+        left: 40px;
+    }
+
+    .left_side {
+        padding-right: 0px;
+        /* padding-left: 10px; */
+        /* background-color: blue; */
+        text-align: center;
+        margin-top: 50px;
+
+    }
+
+    .left_side>h2 {
+
+        font-size: 25px;
+    }
+
 
 }

@@ -155,3 +155,21 @@ h1 {
     height: 256px;
     margin: 10px auto;
 }
+
+
+.featured_section {
+    display: flex;
+    max-width: 70%;
+    margin: 50px auto;
+}
+
+.featured_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+}
+
+.featured_right>p {
+    margin: 20px 0;
+}

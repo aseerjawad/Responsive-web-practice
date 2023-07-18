@@ -5,6 +5,18 @@
     font-family: 'Poppins', sans-serif;
 }
 
+button {
+    max-width: fit-content;
+    padding: 10px;
+    border-radius: 8px;
+    border: 0;
+    background: #E02C6D;
+    color: white;
+    text-align: center;
+}
+
+/* -------------------------------Header section---------------------------------- */
+
 
 .nav_container {
     max-width: 1920px;
@@ -54,4 +66,45 @@ h1 {
     font-size: 25px;
     /* background-color: aqua; */
     padding-top: 9px;
+}
+
+
+.mid_section {
+    max-width: 1920px;
+    min-height: 500px;
+    border: 3px solid black;
+    padding: 0 100px;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.bgm {
+    position: absolute;
+    right: 100px;
+    z-index: -1;
+}
+
+.left_side {
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 300px;
+}
+
+.left_side>p {
+    /* background-color: antiquewhite; */
+    padding-right: 20px;
+    color: #3A3A3A;
+    margin: 20px 0;
+}
+
+.left_side>h2 {
+    font-size: 40px;
+}
+
+.right_side {
+    /* background-color: brown; */
 }

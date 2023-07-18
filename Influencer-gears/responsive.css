@@ -113,5 +113,19 @@
 
     }
 
+    .featured_section {
+        flex-direction: column-reverse;
+    }
+
+    .featured_left>img {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .featured_right {
+        padding-left: 0;
+        text-align: center;
+    }
+
 
 }

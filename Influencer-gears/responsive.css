@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+@media screen and (max-width: 360px) {
+    .nav_container {
+        flex-direction: column;
+        /* margin: 20px 20px; */
+    }
+
+    .logo {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo>img {
+        height: 40px;
+        width: 40px;
+    }
+
+    .logo>h1 {
+        /* background-color: aqua; */
+        font-size: 16px;
+
+    }
+
+    .nav_bar>ul {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .nav_bar>ul>li {
+        /* background-color: rgb(38, 255, 0); */
+        margin-left: 0;
+        margin-top: 2px;
+
+    }
+
+}

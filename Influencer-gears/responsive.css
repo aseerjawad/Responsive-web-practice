@@ -85,5 +85,18 @@
         font-size: 25px;
     }
 
+    .left_side>p {
+        padding-right: 0px;
+    }
+
+
+
+
+
+    .sponsors {
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+
 
 }

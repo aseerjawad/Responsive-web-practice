@@ -173,3 +173,17 @@ h1 {
 .featured_right>p {
     margin: 20px 0;
 }
+
+
+
+/* -----------------------------Footer---------------------------- */
+.footer {
+    max-width: 1920px;
+    min-height: 300px;
+    background: #0A0826;
+    color: aliceblue;
+    text-align: center;
+
+    padding-top: 100px;
+
+}

@@ -41,4 +41,12 @@
 
     }
 
+    .nav_bar>ul>li>a>i {
+        /* background-color: rgb(38, 255, 0); */
+        /* background-color: aqua; */
+        font-size: 30px;
+
+    }
+
+
 }

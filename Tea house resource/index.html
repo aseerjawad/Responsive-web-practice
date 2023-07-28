@@ -30,6 +30,20 @@
         }
     </style>
 
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+
+                    backgroundImage: {
+                        'bjt': "url('./images/bg_cup.png')",
+                    },
+                },
+            },
+        }
+
+    </script>
+
 
 
 
@@ -68,7 +82,7 @@
         </div>
     </header>
     <main>
-        <div class="text-center mt-32 space-y-6">
+        <div class="text-center mt-32 space-y-6 font_manrope">
             <h1 class="font-bold text-4xl">Our Featured Products</h1>
             <p class="lg:px-60 mb-32">There are many variations of passages of Lorem Ipsum available, but the majority
                 have
@@ -76,7 +90,7 @@
                 in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
         </div>
 
-        <div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1  gap-10 px-40 ">
+        <div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1  gap-10 px-40 font_manrope">
             <div class="card bg-base-100 shadow-xl">
                 <figure class="px-10 pt-10">
                     <img src="/images/tea-1.png" alt="Shoes" class="rounded-xl" />
@@ -119,9 +133,9 @@
 
         </div>
 
-        <div class="flex lg:flex-row flex-col justify-between lg:px-40 px-28 my-20">
+        <div class="flex lg:flex-row flex-col justify-between lg:px-40 px-28 my-20 font_manrope">
             <div class="left_side grid grid-cols-2 grid-rows-3 md:w-[400px] lg:w-[550px] gap-4">
-                <div class="bg-slate-400 h-28 rounded-lg bg-gradient-to-r from-[#fcae91] to-[#FFFFFF]"></div>
+                <div class=" h-28 rounded-lg bg-gradient-to-r from-[#fcae91] to-[#FFFFFF]"></div>
                 <div class="bg-[#fcae91] row-span-3 rounded-lg flex justify-center items-center"><img
                         src="images/fresh-1.png" alt=""></div>
                 <div class="bg-[#D9D9D9] row-span-3 rounded-lg flex justify-center items-center"><img
@@ -149,6 +163,71 @@
                 <p class="w-3/4 lg:w-2/3">Premium Quality that makes tea more elegant and more durable when you use it.
                 </p>
             </div>
+
+        </div>
+
+        <div
+            class="meet_our_clients lg:min-h-[600px] rounded-lg bg-gradient-to-r from-[#FF8938] to-[#F00] lg:mx-36 flex my-5 font_manrope">
+            <div class="meet_our_clients_left flex lg:flex-col lg:justify-center space-y-4 w-1/2 px-20 bg-bjt">
+                <h1 class="text-4xl w-2/3 text-white font-extrabold">Meet Our Super Clients</h1>
+                <p class="w-2/3 text-white text-sm">There are many variations of passages of Lorem Ipsum available, but
+                    the
+                    majority have
+                    suffered
+                    alteration in some form, by injected humour, or randomised words which don't look even slightly
+                    believable. </p>
+                <button class="w-[110px] btn btn-primary text-orange-500 bg-white border-0">See more</button>
+            </div>
+
+            <div class="meet_our_clients_right flex items-center">
+                <div class="relative">
+                    <div class="absolute -top-36 left-28">
+                        <img class="absolute -top-8 -left-8 border-4 border-white rounded-full opacity-50 z-10"
+                            src="images/client.png" alt="">
+                        <div class=" rounded-lg w-[433px] z-0 h-[200px] opacity-30 bg-white p-10">
+
+                            <p class="text-sm">We are providing the best and suitable home <br> insurance services for
+                                the
+                                people who are <br>
+                                interested to treatment</p>
+                            <p class="mt-2 font-extrabold">Ilham Yuda</p>
+                            <p>Businessman</p>
+                        </div>
+
+                    </div>
+
+                    <div class="relative">
+                        <img class="absolute -top-8 -left-8 border-4 border-white rounded-full" src="images/client.png"
+                            alt="">
+                        <div class=" rounded-lg w-[433px] h-[200px] z-20 bg-white p-10">
+                            <p class="text-sm">We are providing the best and suitable home <br> insurance services for
+                                the
+                                people who are <br>
+                                interested to treatment</p>
+                            <p class="mt-2 font-extrabold">Ilham Yuda</p>
+                            <p>Businessman</p>
+                        </div>
+
+                    </div>
+
+                    <div class="absolute top-36 left-28">
+                        <img class="absolute -top-8 -left-8 border-4 border-white rounded-full opacity-0 z-10"
+                            src="images/client.png" alt="">
+                        <div class=" rounded-lg w-[433px] z-0 h-[200px] opacity-30 bg-white p-10">
+
+                            <p class="text-sm">We are providing the best and suitable home <br> insurance services for
+                                the
+                                people who are <br>
+                                interested to treatment</p>
+                            <p class="mt-2 font-extrabold">Ilham Yuda</p>
+                            <p>Businessman</p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
 
         </div>
 
